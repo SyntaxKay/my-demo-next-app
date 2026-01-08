@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer base {
+  h1 {
+    @apply text-5xl font-bold mb-4;
+  }
+}
